@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    appearance:none;
+    -webkit-appearance:none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #2c786c;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+}
+
+p {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.register-form {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2c786c;
+    margin-bottom: 0 0 50% 0;
+}
+
+.register-box[type] {
+    padding: 15px;
+    margin: 25px 0 0 25%;
+    border: 0;
+    border-bottom: 3px solid #0a0303;
+    border-right: 3px solid #0a0303;
+    background-color: #309182;
+    border-radius: 10px;
+    width: 50%;
+    
+    
+}
+
+.register-box{
+    background-color: #fafafa;
+    border:0;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+    transition: .3s box-shadow;
+    color: white;
+}
+
+.register-box:hover{
+    box-shadow:0 0 10px cyan;
+}
+
+.register-box::placeholder {
+    color: white;
+    padding: 10px;
+}
+
+.register-btn {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    width: 50%;
+    border: 0;
+    background-color: #2b4450;
+    cursor: pointer;
+    margin: 25px 0 0 25%;
+    color: white;
+    transition: box-shadow 0.15s;
+}
+
+.register-btn:hover {
+    box-shadow: 0 0 15px 1px cyan;
+}
